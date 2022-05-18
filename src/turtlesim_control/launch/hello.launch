@@ -1,0 +1,10 @@
+<launch>
+    <arg name="port" value="/dev/ttyACM0"/>
+    <node name="serial_node" pkg="rosserial_python" type="serial_node.py">
+        <param name="_port" type="string" value="$(arg port)"/>
+    </node>
+
+    <node name="serial_listener" pkg="turtlesim_control" type="serial_subscriber.py" output="screen"/>
+
+    
+</launch>
