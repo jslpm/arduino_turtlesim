@@ -13,6 +13,7 @@ The turtle can go forward and backward, turn right and left, the screen is clear
 ## Dependencies
 * Python >= 3.8.10
 * [ROS noetic](http://wiki.ros.org/noetic)
+* [rosserial_arduino](http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup)
 * [Arduino IDE](https://www.arduino.cc/en/software) >= 1.8.19
 
 ## Basic execution
