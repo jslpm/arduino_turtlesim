@@ -8,8 +8,6 @@ ros::Publisher chatter("chatter", &str_msg);
 
 char hello[] = "Hello world from arduino-ros";
 
-unsigned i {0};
-
 void setup() {
   nh.initNode();
   nh.advertise(chatter);
