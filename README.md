@@ -23,7 +23,7 @@ The turtle can go forward and backward, turn right and left, the screen is clear
 4. Source project: `source devel/setup.bash`
 5. Launch the nodes: `roslaunch turtlesim_control start_turtle_control.launch`
 
-Node and topics are communicated as following:
+Nodes and topics are communicated as following:
 
 ![node_graph](media/arduino_turtlesim_node_graph.png)
 
