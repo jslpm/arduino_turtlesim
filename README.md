@@ -59,6 +59,6 @@ Let's take a closer look at the purpose of each of these folders and files:
 * `joystick_test`: Arduino program to read and display joystick values through monitor serial.
 * `hello.launch`: Launch file for starting rosserial node and `serial_subscriber.py` node. This file is used for testing communication between arduino and ros.
 * `test_turtle_control.launch`: Launch file for starting rosserial node and turtlesim node. Also remap cmd_vel message from arduino.
-* `start_turtle_contro.launch`: Main launch file for starting all nodes: rosserial, turtlesim and button_listener node.
+* `start_turtle_control.launch`: Main launch file for starting all nodes: rosserial, turtlesim and button_listener node.
 * `button_subscriber.py`: A node that listen the button state from the joystick. If the button is pressed calls 'clear' service from turtlesim.
 * `serial_subscriber.py`: A node for testing messages send from arduino under 'chatter' topic.
